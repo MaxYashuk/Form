@@ -1,0 +1,80 @@
+*{
+    margin: 0 auto;
+}
+form{
+    border: 2px solid black;
+    background-color: gainsboro;
+    width: 500px;
+    height: 100%;
+    margin: 20px auto;
+    border-radius: 25px;
+}
+form div{
+    width: 200px;
+    margin: 7px auto;
+}
+.radio{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+    justify-content: center;
+}
+.radio p{
+    margin: 0;
+    padding: 0;
+}
+.name_plce::placeholder{
+    text-align: center;
+    
+
+}
+.email_plce::placeholder{
+    text-align: center;
+}
+.password_plce::placeholder{
+    text-align: center;
+}
+button{
+    width: 200px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    height: 30px;
+    transition: all 1s;
+
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+}
+button:hover{
+    background-color: brown;
+    color: wheat;
+
+}
+.name{
+    display: flex;
+    justify-content: center;
+}
+.name p{
+    padding-left: 10px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+}
+.email p{
+    padding-left: 10px;
+}
+.password{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 11px;
+}
+.password p{
+    padding-left: 10px;
+}
+body{
+    background-color: thistle;
+}
